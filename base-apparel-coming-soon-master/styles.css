@@ -1,0 +1,76 @@
+body{
+       background-image: url("./images/bg-pattern-desktop.svg");
+    
+}
+.hero{
+    float: right;
+    position:relative;
+    top: -8px;
+    right:-8px;
+    width: 700px;
+    height:830px;
+}
+.logo-image{
+    margin:5px auto;
+    padding:5px;
+    position:relative;
+    top: 35px;
+    left:140px;
+}
+.text-content{
+    font-size:33px;
+    position: relative;
+    left:140px;
+    top:110px;
+    letter-spacing: 10px;
+}
+.text-1{
+    color:hsl(0, 6%, 24%);
+}
+.text-2{
+    color:  hsl(0, 36%, 70%);
+} 
+.para{
+    color:  hsl(0, 36%, 70%);
+    position: relative;
+    left:140px;
+    top:80px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.form{
+    position: relative;
+    top:100px;
+    left:140px;
+}
+.form input{
+    border: 1px solid rgb(235, 232, 232);
+    border-radius:20px;
+	height: 42px;
+	width: 430px;
+}
+.form button{
+    border: 1px solid rgb(235, 232, 232);
+    border-radius:20px;
+	height: 48px;
+    width:100px;
+    position: relative;
+    left:-100px;
+    top:5px;
+    cursor:pointer;
+    background:linear-gradient( 135deg,  hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+::placeholder{
+    color: hsl(0, 36%, 70%);
+    padding:13px;
+    font-size: small;
+}
+input:focus,button:focus{
+    outline: none;
+}
+.feedback{
+    color:red;
+}
+form.submitted input:invalid {
+    border: 1px solid red;
+ }
